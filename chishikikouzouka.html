@@ -132,7 +132,14 @@
 <ul>
 <li>そのまえに、モデルに従う例
 <p>
-たとえば、正規分布における平均値
+準備
+	<ul>
+	<li>準備 1. n次モーメント: Int[x^n f[x],dx]
+	<li>準備 2. n次平滑値(天野による定義、n次モーメントの値を0次モーメントの値で割ったもの): Int[x^n f[x],dx] / Int[f[x],dx]
+	</ul>
+</p>
+<p>
+正規分布における平均・分散
 	<ul>
 	<li>正規分布: N[x|m,S] = 1/Sqrt[2 Pi S] Exp^(-1/(2 S) (x - m)^2)
 	<li>次を満たす: N[x|m,S] &gt 0 かつ Integ[N[x|m,S],dx,-Inf,Inf] = 1
@@ -140,6 +147,13 @@
 	<li>xの(y軸に対する)2次モーメント E[x^2]: Integ[N[x|m,S] x^2,dx,-Inf,inf] / Integ[N[x|m,S],dx,-Inf,Inf] = m^2 + S
 	<li>xの分散 E[x^2] - E[x]^2: m^2 + S - m^2 = S
 	<li>要素値xiの正規化: (xi - mean) / Sqrt[Sum[(xi - mean)^2]]
+	</ul>
+</p>
+<p>
+ちなみに、m=0、S=1のとき、
+	<ul>
+	<li>歪度: 3次モーメント
+	<li>尖度: 4次モーメント
 	</ul>
 </p>
 <li>探索的データ解析(スライド: 中山先生 知識構造化法3.pptx,知識構造化法4.pptx)
