@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    170131,       3538]
-NotebookOptionsPosition[    164300,       3341]
-NotebookOutlinePosition[    164705,       3357]
-CellTagsIndexPosition[    164662,       3354]
+NotebookDataLength[    170343,       3540]
+NotebookOptionsPosition[    164513,       3343]
+NotebookOutlinePosition[    164918,       3359]
+CellTagsIndexPosition[    164875,       3356]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3190,14 +3190,15 @@ Cell["\<\
 \>", "Text",
  CellChangeTimes->{{3.578368470830196*^9, 3.578368549957902*^9}, {
   3.578370506799543*^9, 3.578370535684127*^9}}]
-}, Closed]],
+}, Open  ]],
 
-Cell[TextData[StyleBox["\:6a5f\:68b0\:5206\:985e\:3068\:7af6\:5408\:5b66\:7fd2\
+Cell[TextData[StyleBox["\:5206\:985e\:6a5f\:68b0\:3068\:7af6\:5408\:5b66\:7fd2\
 ",
  FontSize->12]], "Subsubsection",
  CellChangeTimes->{{3.575945155689769*^9, 3.57594515858322*^9}, {
   3.5759469000458717`*^9, 3.575946908119422*^9}, {3.575948209520729*^9, 
-  3.575948255065407*^9}, {3.578370594647093*^9, 3.5783706472192717`*^9}},
+  3.575948255065407*^9}, {3.578370594647093*^9, 3.5783706472192717`*^9}, {
+  3.578372432431141*^9, 3.57837243682025*^9}},
  FontSize->9]
 }, Open  ]]
 }, Open  ]],
@@ -3227,12 +3228,12 @@ Cell[BoxData[
    {FaceForm[{RGBColor[0, 1, 1], Opacity[0.17]}], 
     DiskBox[{0.8861111111111113, 0.5472222222222227}, \
 {0.05833333333333335, 0.07499999999999973}]}, 
-   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[
-    None], FaceForm[Opacity[0.17]], 
+   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[{
+    GrayLevel[0.], Opacity[1.]}], EdgeForm[None], FaceForm[Opacity[0.17]], 
     ArrowBox[{{0.1444444444444445, 0.7361111111111116}, {0.3611111111111112, 
      0.7361111111111116}}]}, 
-   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[
-    None], FaceForm[Opacity[0.17]], 
+   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[{
+    GrayLevel[0.], Opacity[1.]}], EdgeForm[None], FaceForm[Opacity[0.17]], 
     ArrowBox[{{0.15000000000000008`, 0.36974074074074115`}, {
      0.36666666666666675`, 0.36974074074074115`}}]}, 
    {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[{
@@ -3240,8 +3241,9 @@ Cell[BoxData[
      FaceForm[Opacity[0.17]], 
     ArrowBox[{{0.48611111111111127`, 0.7388888888888894}, {0.8222222222222225,
       0.5722222222222229}}]}, 
-   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[
-    None], FaceForm[{RGBColor[0, 1, 1], Opacity[0.17]}], 
+   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[{
+    GrayLevel[0.], Opacity[1.]}], EdgeForm[None], FaceForm[{RGBColor[0, 1, 1],
+     Opacity[0.17]}], 
     ArrowBox[{{0.4916666666666668, 0.36388888888888915`}, {0.8277548209366393,
       0.5192920881396305}}]}, 
    {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[{
@@ -3249,8 +3251,8 @@ Cell[BoxData[
      FaceForm[{RGBColor[0, 1, 1], Opacity[0.17]}], 
     ArrowBox[{{0.47777777777777797`, 0.11388888888888918`}, {
      0.8443941592910278, 0.48627563127319584`}}]}, 
-   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[
-    None], FaceForm[Opacity[0.17]], 
+   {AbsoluteThickness[1], StrokeForm[{GrayLevel[0.], Opacity[1.]}], EdgeForm[{
+    GrayLevel[0.], Opacity[1.]}], EdgeForm[None], FaceForm[Opacity[0.17]], 
     ArrowBox[{{0.9388888888888891, 0.5447407407407412}, {1.1555555555555557`, 
      0.5447407407407412}}]}, InsetBox[
     StyleBox[Cell["\:5165\:529b\:ff11",
@@ -3340,7 +3342,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{740, 853},
-WindowMargins->{{9, Automatic}, {Automatic, 0}},
+WindowMargins->{{5, Automatic}, {Automatic, 0}},
 FrontEndVersion->"9.0 for Linux x86 (64-bit) (2013\:5e742\:67081\:65e5)",
 StyleDefinitions->FrontEnd`FileName[{"Book"}, "Textbook.nb", 
   CharacterEncoding -> "UTF-8"]
@@ -3369,11 +3371,11 @@ Cell[1718, 58, 219, 4, 30, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1974, 67, 145, 3, 30, "Input"],
-Cell[2122, 72, 354, 10, 44, "Output"]
+Cell[2122, 72, 354, 10, 30, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2513, 87, 225, 5, 30, "Input"],
-Cell[2741, 94, 384, 11, 44, "Output"]
+Cell[2741, 94, 384, 11, 30, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[3162, 110, 308, 7, 30, "Input"],
@@ -3469,7 +3471,7 @@ Cell[143744, 2775, 661, 21, 30, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[144442, 2801, 858, 23, 59, "Input"],
-Cell[145303, 2826, 1651, 49, 109, "Output"]
+Cell[145303, 2826, 1651, 49, 95, "Output"]
 }, Open  ]],
 Cell[146969, 2878, 273, 4, 24, "Text"],
 Cell[CellGroupData[{
@@ -3531,13 +3533,13 @@ Cell[156170, 3151, 1152, 24, 50, "Input"],
 Cell[157325, 3177, 119, 2, 30, "Output"]
 }, Open  ]],
 Cell[157459, 3182, 585, 9, 43, "Text"]
-}, Closed]],
-Cell[158059, 3194, 343, 6, 24, "Subsubsection"]
+}, Open  ]],
+Cell[158059, 3194, 391, 7, 24, "Subsubsection"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[158451, 3206, 111, 1, 60, "Section"],
-Cell[158565, 3209, 5707, 128, 368, "Text"]
+Cell[158499, 3207, 111, 1, 60, "Section"],
+Cell[158613, 3210, 5872, 129, 368, "Text"]
 }, Open  ]]
 }, Open  ]]
 }
