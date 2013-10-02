@@ -1,1 +1,3 @@
-current MMA ver: 8
+current
+chishikikouzouka.nb8.nb
+ 
