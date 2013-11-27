@@ -1,3 +1,3 @@
 current
-chishikikouzouka.nb8.nb
-mac 
+chishikikouzouka.nb9.nb
+n005
