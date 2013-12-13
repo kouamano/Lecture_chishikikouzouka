@@ -60931,7 +60931,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{917, 858},
-WindowMargins->{{152, Automatic}, {Automatic, 5}},
+WindowMargins->{{Automatic, 162}, {Automatic, 0}},
 ShowSelection->True,
 Magnification:>1.25 Inherited,
 FrontEndVersion->"9.0 for Linux x86 (64-bit) (2013\:5e742\:67081\:65e5)",
