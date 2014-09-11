@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    104476,       2933]
-NotebookOptionsPosition[     96220,       2650]
-NotebookOutlinePosition[     96842,       2675]
-CellTagsIndexPosition[     96756,       2670]
+NotebookDataLength[    104305,       2911]
+NotebookOptionsPosition[     95999,       2628]
+NotebookOutlinePosition[     96670,       2653]
+CellTagsIndexPosition[     96584,       2648]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -65,7 +65,7 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"hToG", "[", 
    RowBox[{"mat_", ",", "alpha_"}], "]"}], ":=", 
-  RowBox[{"Block", "[", "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"{", 
      RowBox[{"n", ",", "zerolines", ",", "a", ",", "elem"}], "}"}], ",", 
@@ -117,7 +117,7 @@ Cell[BoxData[
    "]"}]}]], "Input",
  CellChangeTimes->{{3.5210831073608837`*^9, 3.5210833732507772`*^9}, {
   3.5459819131191463`*^9, 3.545981947292698*^9}, {3.54598198644871*^9, 
-  3.545981994986741*^9}}],
+  3.545981994986741*^9}, {3.619383555549788*^9, 3.619383560487163*^9}}],
 
 Cell[BoxData[
  RowBox[{
@@ -267,10 +267,9 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Power", "::", "infy"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\
-\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
+   RowBox[{"Power", "::", "infy"}], "MessageName"], ":", 
+  " ", "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\:898b\
+\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
 \[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
 ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
@@ -282,9 +281,8 @@ ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -297,9 +295,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -312,9 +309,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -327,10 +323,9 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\
-\\*StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
+   RowBox[{"General", "::", "stop"}], "MessageName"], ":", 
+  " ", "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\\*\
+StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
 \:3053\:308c\:4ee5\:4e0a\:306e\:51fa\:529b\:306f\:8868\:793a\:3055\:308c\:307e\
 \:305b\:3093\:ff0e \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\
 \\\"Link\\\", ButtonFrame->None, \
@@ -396,10 +391,9 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Power", "::", "infy"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\
-\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
+   RowBox[{"Power", "::", "infy"}], "MessageName"], ":", 
+  " ", "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\:898b\
+\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
 \[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
 ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
@@ -416,9 +410,8 @@ ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -436,9 +429,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -456,9 +448,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -476,10 +467,9 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\
-\\*StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
+   RowBox[{"General", "::", "stop"}], "MessageName"], ":", 
+  " ", "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\\*\
+StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
 \:3053\:308c\:4ee5\:4e0a\:306e\:51fa\:529b\:306f\:8868\:793a\:3055\:308c\:307e\
 \:305b\:3093\:ff0e \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\
 \\\"Link\\\", ButtonFrame->None, \
@@ -1297,10 +1287,8 @@ Cell[BoxData[
    3.529918424932192*^9, 3.530914991682247*^9, 3.545981869212655*^9}]
 }, Open  ]],
 
-Cell["\<\
-\[Pi] (13) T\:306f\:3001(0, 0, 0, 4/15, 2/15, 1/5) \:3067\:306f\:306a\:3044\
-\:304b\:3002\
-\>", "Text",
+Cell["\[Pi] (13) T\:306f\:3001(0, 0, 0, 4/15, 2/15, 1/5) \:3067\:306f\:306a\
+\:3044\:304b\:3002", "Text",
  CellChangeTimes->{{3.520986316551889*^9, 3.52098640347799*^9}}]
 }, Open  ]],
 
@@ -2052,10 +2040,9 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Power", "::", "infy"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\
-\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
+   RowBox[{"Power", "::", "infy"}], "MessageName"], ":", 
+  " ", "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\:898b\
+\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
 \[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
 ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
@@ -2068,9 +2055,8 @@ ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -2084,9 +2070,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -2100,9 +2085,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -2116,10 +2100,9 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\
-\\*StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
+   RowBox[{"General", "::", "stop"}], "MessageName"], ":", 
+  " ", "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\\*\
+StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
 \:3053\:308c\:4ee5\:4e0a\:306e\:51fa\:529b\:306f\:8868\:793a\:3055\:308c\:307e\
 \:305b\:3093\:ff0e \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\
 \\\"Link\\\", ButtonFrame->None, \
@@ -2213,10 +2196,9 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Power", "::", "infy"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\
-\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
+   RowBox[{"Power", "::", "infy"}], "MessageName"], ":", 
+  " ", "\<\"\:7121\:9650\:5f0f\[NoBreak]\\!\\(1\\/0\\)\[NoBreak]\:304c\:898b\
+\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \\!\\(\\*ButtonBox[\\\"\
 \[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
 ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
@@ -2229,9 +2211,8 @@ ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -2245,9 +2226,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -2261,9 +2241,8 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"Infinity", "::", "indet"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
+   RowBox[{"Infinity", "::", "indet"}], "MessageName"], ":", 
+  " ", "\<\"\:4e0d\:5b9a\:5f0f\[NoBreak]\\!\\(0\\\\ ComplexInfinity\\)\
 \[NoBreak]\:304c\:898b\:4ed8\:304b\:308a\:307e\:3057\:305f\:ff0e \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/indet\\\", \
@@ -2277,10 +2256,9 @@ ButtonNote -> \\\"Infinity::indet\\\"]\\)\"\>"}]], "Message", "MSG",
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\
-\\*StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
+   RowBox[{"General", "::", "stop"}], "MessageName"], ":", 
+  " ", "\<\"\:3053\:306e\:8a08\:7b97\:4e2d\:306b\:ff0c\[NoBreak]\\!\\(\\*\
+StyleBox[\\(Infinity :: indet\\), \\\"MessageName\\\"]\\)\[NoBreak]\:306e\
 \:3053\:308c\:4ee5\:4e0a\:306e\:51fa\:529b\:306f\:8868\:793a\:3055\:308c\:307e\
 \:305b\:3093\:ff0e \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\
 \\\"Link\\\", ButtonFrame->None, \
@@ -2649,10 +2627,10 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{740, 756},
-WindowMargins->{{Automatic, 61}, {Automatic, 0}},
+WindowMargins->{{Automatic, -51}, {58, Automatic}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
 ShowSelection->True,
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (2011\:5e744\
-\:67085\:65e5)",
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (July 9, 2014)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -2661,277 +2639,277 @@ StyleDefinitions->"Default.nb"
 (*CellTagsOutline
 CellTagsIndex->{
  "Info3546014270-1247274"->{
-  Cell[92870, 2552, 132, 2, 39, "Print",
+  Cell[92649, 2530, 132, 2, 39, "Print",
    CellTags->"Info3546014270-1247274"],
-  Cell[93005, 2556, 1736, 45, 74, "Print",
+  Cell[92784, 2534, 1736, 45, 74, "Print",
    CellTags->"Info3546014270-1247274"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info3546014270-1247274", 96568, 2662}
+ {"Info3546014270-1247274", 96396, 2640}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 103, 1, 76, "Title"],
+Cell[579, 22, 103, 1, 96, "Title"],
 Cell[CellGroupData[{
 Cell[707, 27, 95, 1, 67, "Section"],
-Cell[805, 30, 444, 14, 27, "Input"],
-Cell[1252, 46, 590, 15, 88, "Input"],
-Cell[1845, 63, 1985, 56, 148, "Input"],
-Cell[3833, 121, 1175, 29, 133, "Input"]
+Cell[805, 30, 444, 14, 32, "Input"],
+Cell[1252, 46, 590, 15, 121, "Input"],
+Cell[1845, 63, 2032, 56, 209, "Input"],
+Cell[3880, 121, 1175, 29, 187, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5045, 155, 100, 1, 67, "Section"],
+Cell[5092, 155, 100, 1, 67, "Section"],
 Cell[CellGroupData[{
-Cell[5170, 160, 98, 1, 24, "Subsubsection"],
+Cell[5217, 160, 98, 1, 37, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[5293, 165, 117, 2, 27, "Input"],
-Cell[5413, 169, 379, 5, 27, "Output"]
+Cell[5340, 165, 117, 2, 32, "Input"],
+Cell[5460, 169, 379, 5, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5829, 179, 1120, 25, 118, "Input"],
-Cell[6952, 206, 1206, 29, 43, "Output"]
+Cell[5876, 179, 1120, 25, 165, "Input"],
+Cell[6999, 206, 1206, 29, 55, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8195, 240, 182, 4, 27, "Input"],
-Cell[8380, 246, 602, 10, 27, "Output"]
+Cell[8242, 240, 182, 4, 32, "Input"],
+Cell[8427, 246, 602, 10, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9019, 261, 185, 3, 27, "Input"],
-Cell[9207, 266, 715, 13, 42, "Message"],
-Cell[9925, 281, 740, 13, 22, "Message"],
-Cell[10668, 296, 742, 13, 22, "Message"],
-Cell[11413, 311, 738, 13, 22, "Message"],
-Cell[12154, 326, 847, 15, 22, "Message"],
-Cell[13004, 343, 1190, 30, 82, "Output"]
+Cell[9066, 261, 185, 3, 32, "Input"],
+Cell[9254, 266, 702, 12, 51, "Message"],
+Cell[9959, 280, 727, 12, 23, "Message"],
+Cell[10689, 294, 729, 12, 23, "Message"],
+Cell[11421, 308, 725, 12, 23, "Message"],
+Cell[12149, 322, 834, 14, 23, "Message"],
+Cell[12986, 338, 1190, 30, 100, "Output"]
 }, Open  ]],
-Cell[14209, 376, 128, 3, 27, "Input"],
+Cell[14191, 371, 128, 3, 27, "Input"],
 Cell[CellGroupData[{
-Cell[14362, 383, 393, 10, 27, "Input"],
-Cell[14758, 395, 1011, 18, 42, "Message"],
-Cell[15772, 415, 1036, 18, 22, "Message"],
-Cell[16811, 435, 1038, 18, 22, "Message"],
-Cell[17852, 455, 1038, 18, 22, "Message"],
-Cell[18893, 475, 1143, 20, 22, "Message"],
-Cell[20039, 497, 1485, 34, 82, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[21561, 536, 205, 4, 27, "Input"],
-Cell[21769, 542, 1439, 37, 157, "Output"]
+Cell[14344, 378, 393, 10, 27, "Input"],
+Cell[14740, 390, 998, 17, 42, "Message"],
+Cell[15741, 409, 1023, 17, 22, "Message"],
+Cell[16767, 428, 1025, 17, 22, "Message"],
+Cell[17795, 447, 1025, 17, 22, "Message"],
+Cell[18823, 466, 1130, 19, 22, "Message"],
+Cell[19956, 487, 1485, 34, 82, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23245, 584, 302, 8, 27, "Input"],
-Cell[23550, 594, 657, 14, 47, "Output"]
+Cell[21478, 526, 205, 4, 27, "Input"],
+Cell[21686, 532, 1439, 37, 157, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24244, 613, 342, 9, 27, "Input"],
-Cell[24589, 624, 1439, 37, 165, "Output"]
+Cell[23162, 574, 302, 8, 27, "Input"],
+Cell[23467, 584, 657, 14, 47, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[26065, 666, 317, 8, 27, "Input"],
-Cell[26385, 676, 639, 14, 47, "Output"]
+Cell[24161, 603, 342, 9, 27, "Input"],
+Cell[24506, 614, 1439, 37, 165, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[27061, 695, 321, 9, 27, "Input"],
-Cell[27385, 706, 1168, 33, 165, "Output"]
+Cell[25982, 656, 317, 8, 27, "Input"],
+Cell[26302, 666, 639, 14, 47, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28590, 744, 365, 9, 27, "Input"],
-Cell[28958, 755, 643, 14, 47, "Output"]
-}, Open  ]],
-Cell[29616, 772, 481, 12, 27, "Input"],
-Cell[CellGroupData[{
-Cell[30122, 788, 263, 7, 27, "Input"],
-Cell[30388, 797, 1553, 40, 84, "Output"]
+Cell[26978, 685, 321, 9, 27, "Input"],
+Cell[27302, 696, 1168, 33, 165, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[31978, 842, 254, 5, 27, "Input"],
-Cell[32235, 849, 745, 15, 47, "Output"]
+Cell[28507, 734, 365, 9, 27, "Input"],
+Cell[28875, 745, 643, 14, 47, "Output"]
+}, Open  ]],
+Cell[29533, 762, 481, 12, 27, "Input"],
+Cell[CellGroupData[{
+Cell[30039, 778, 263, 7, 27, "Input"],
+Cell[30305, 787, 1553, 40, 84, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33017, 869, 191, 4, 27, "Input"],
-Cell[33211, 875, 677, 14, 47, "Output"]
+Cell[31895, 832, 254, 5, 27, "Input"],
+Cell[32152, 839, 745, 15, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32934, 859, 191, 4, 27, "Input"],
+Cell[33128, 865, 677, 14, 47, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33937, 895, 97, 1, 24, "Subsubsection"],
+Cell[33854, 885, 97, 1, 24, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[34059, 900, 458, 9, 27, "Input"],
-Cell[34520, 911, 861, 14, 33, "Output"]
+Cell[33976, 890, 458, 9, 27, "Input"],
+Cell[34437, 901, 861, 14, 33, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[35418, 930, 567, 12, 27, "Input"],
-Cell[35988, 944, 763, 10, 27, "Output"]
+Cell[35335, 920, 567, 12, 27, "Input"],
+Cell[35905, 934, 763, 10, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[36788, 959, 661, 11, 27, "Input"],
-Cell[37452, 972, 6221, 173, 602, "Output"]
+Cell[36705, 949, 661, 11, 27, "Input"],
+Cell[37369, 962, 6221, 173, 602, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43710, 1150, 439, 11, 27, "Input"],
-Cell[44152, 1163, 603, 10, 33, "Output"]
+Cell[43627, 1140, 439, 11, 27, "Input"],
+Cell[44069, 1153, 603, 10, 33, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[44792, 1178, 451, 11, 27, "Input"],
-Cell[45246, 1191, 1308, 35, 157, "Output"]
+Cell[44709, 1168, 451, 11, 27, "Input"],
+Cell[45163, 1181, 1308, 35, 157, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46591, 1231, 141, 3, 27, "Input"],
-Cell[46735, 1236, 467, 6, 27, "Output"]
+Cell[46508, 1221, 141, 3, 27, "Input"],
+Cell[46652, 1226, 467, 6, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[47239, 1247, 141, 3, 27, "Input"],
-Cell[47383, 1252, 437, 6, 27, "Output"]
+Cell[47156, 1237, 141, 3, 27, "Input"],
+Cell[47300, 1242, 437, 6, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[47857, 1263, 187, 5, 27, "Input"],
-Cell[48047, 1270, 474, 7, 47, "Output"]
+Cell[47774, 1253, 187, 5, 27, "Input"],
+Cell[47964, 1260, 474, 7, 47, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[48558, 1282, 187, 5, 27, "Input"],
-Cell[48748, 1289, 469, 7, 47, "Output"]
+Cell[48475, 1272, 187, 5, 27, "Input"],
+Cell[48665, 1279, 469, 7, 47, "Output"]
 }, Open  ]],
-Cell[49232, 1299, 178, 4, 27, "Text"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[49447, 1308, 97, 1, 24, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[49569, 1313, 318, 8, 27, "Input"],
-Cell[49890, 1323, 498, 8, 27, "Output"]
+Cell[49149, 1289, 170, 2, 27, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[50425, 1336, 277, 7, 27, "Input"],
-Cell[50705, 1345, 567, 13, 47, "Output"]
+Cell[49356, 1296, 97, 1, 24, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[49478, 1301, 318, 8, 27, "Input"],
+Cell[49799, 1311, 498, 8, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[51309, 1363, 445, 11, 27, "Input"],
-Cell[51757, 1376, 1502, 41, 165, "Output"]
+Cell[50334, 1324, 277, 7, 27, "Input"],
+Cell[50614, 1333, 567, 13, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51218, 1351, 445, 11, 27, "Input"],
+Cell[51666, 1364, 1502, 41, 165, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[53308, 1423, 98, 1, 24, "Subsubsection"],
+Cell[53217, 1411, 98, 1, 24, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[53431, 1428, 145, 3, 27, "Input"],
-Cell[53579, 1433, 368, 6, 47, "Output"]
+Cell[53340, 1416, 145, 3, 27, "Input"],
+Cell[53488, 1421, 368, 6, 47, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[53984, 1444, 350, 9, 27, "Input"],
-Cell[54337, 1455, 470, 8, 27, "Output"]
+Cell[53893, 1432, 350, 9, 27, "Input"],
+Cell[54246, 1443, 470, 8, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[54844, 1468, 245, 6, 27, "Input"],
-Cell[55092, 1476, 453, 9, 27, "Output"]
+Cell[54753, 1456, 245, 6, 27, "Input"],
+Cell[55001, 1464, 453, 9, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[55582, 1490, 199, 5, 27, "Input"],
-Cell[55784, 1497, 438, 8, 27, "Output"]
+Cell[55491, 1478, 199, 5, 27, "Input"],
+Cell[55693, 1485, 438, 8, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[56259, 1510, 366, 10, 27, "Input"],
-Cell[56628, 1522, 454, 7, 27, "Output"]
+Cell[56168, 1498, 366, 10, 27, "Input"],
+Cell[56537, 1510, 454, 7, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[57119, 1534, 815, 20, 27, "Input"],
-Cell[57937, 1556, 2223, 65, 175, "Output"]
+Cell[57028, 1522, 815, 20, 27, "Input"],
+Cell[57846, 1544, 2223, 65, 175, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[60197, 1626, 281, 8, 27, "Input"],
-Cell[60481, 1636, 1799, 59, 175, "Output"]
+Cell[60106, 1614, 281, 8, 27, "Input"],
+Cell[60390, 1624, 1799, 59, 175, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[62317, 1700, 459, 13, 27, "Input"],
-Cell[62779, 1715, 1800, 59, 175, "Output"]
+Cell[62226, 1688, 459, 13, 27, "Input"],
+Cell[62688, 1703, 1800, 59, 175, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[64616, 1779, 339, 8, 27, "Input"],
-Cell[64958, 1789, 2043, 62, 175, "Output"]
+Cell[64525, 1767, 339, 8, 27, "Input"],
+Cell[64867, 1777, 2043, 62, 175, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67038, 1856, 282, 8, 27, "Input"],
-Cell[67323, 1866, 715, 24, 47, "Output"]
+Cell[66947, 1844, 282, 8, 27, "Input"],
+Cell[67232, 1854, 715, 24, 47, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[68075, 1895, 301, 7, 27, "Input"],
-Cell[68379, 1904, 2352, 53, 144, "Output"]
+Cell[67984, 1883, 301, 7, 27, "Input"],
+Cell[68288, 1892, 2352, 53, 144, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70768, 1962, 177, 4, 27, "Input"],
-Cell[70948, 1968, 441, 8, 27, "Output"]
+Cell[70677, 1950, 177, 4, 27, "Input"],
+Cell[70857, 1956, 441, 8, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[71426, 1981, 396, 10, 27, "Input"],
-Cell[71825, 1993, 613, 11, 27, "Output"]
+Cell[71335, 1969, 396, 10, 27, "Input"],
+Cell[71734, 1981, 613, 11, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[72475, 2009, 389, 11, 27, "Input"],
-Cell[72867, 2022, 609, 11, 27, "Output"]
+Cell[72384, 1997, 389, 11, 27, "Input"],
+Cell[72776, 2010, 609, 11, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[73513, 2038, 427, 11, 27, "Input"],
-Cell[73943, 2051, 768, 14, 42, "Message"],
-Cell[74714, 2067, 795, 14, 22, "Message"],
-Cell[75512, 2083, 793, 14, 22, "Message"],
-Cell[76308, 2099, 793, 14, 22, "Message"],
-Cell[77104, 2115, 900, 16, 22, "Message"],
-Cell[78007, 2133, 1948, 61, 175, "Output"]
+Cell[73422, 2026, 427, 11, 27, "Input"],
+Cell[73852, 2039, 755, 13, 42, "Message"],
+Cell[74610, 2054, 782, 13, 22, "Message"],
+Cell[75395, 2069, 780, 13, 22, "Message"],
+Cell[76178, 2084, 780, 13, 22, "Message"],
+Cell[76961, 2099, 887, 15, 22, "Message"],
+Cell[77851, 2116, 1948, 61, 175, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[79992, 2199, 435, 11, 27, "Input"],
-Cell[80430, 2212, 766, 14, 42, "Message"],
-Cell[81199, 2228, 789, 14, 22, "Message"],
-Cell[81991, 2244, 789, 14, 22, "Message"],
-Cell[82783, 2260, 788, 14, 22, "Message"],
-Cell[83574, 2276, 896, 16, 22, "Message"],
-Cell[84473, 2294, 569, 10, 27, "Output"]
+Cell[79836, 2182, 435, 11, 27, "Input"],
+Cell[80274, 2195, 753, 13, 42, "Message"],
+Cell[81030, 2210, 776, 13, 22, "Message"],
+Cell[81809, 2225, 776, 13, 22, "Message"],
+Cell[82588, 2240, 775, 13, 22, "Message"],
+Cell[83366, 2255, 883, 15, 22, "Message"],
+Cell[84252, 2272, 569, 10, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[85079, 2309, 125, 2, 27, "Input"],
-Cell[85207, 2313, 1633, 52, 84, "Output"]
+Cell[84858, 2287, 125, 2, 27, "Input"],
+Cell[84986, 2291, 1633, 52, 84, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[86877, 2370, 150, 3, 27, "Input"],
-Cell[87030, 2375, 121, 2, 27, "Output"]
+Cell[86656, 2348, 150, 3, 27, "Input"],
+Cell[86809, 2353, 121, 2, 27, "Output"]
 }, Open  ]],
-Cell[87166, 2380, 92, 1, 26, "Text"],
+Cell[86945, 2358, 92, 1, 26, "Text"],
 Cell[CellGroupData[{
-Cell[87283, 2385, 175, 4, 27, "Input"],
-Cell[87461, 2391, 352, 7, 27, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[87850, 2403, 121, 2, 27, "Input"],
-Cell[87974, 2407, 326, 7, 27, "Output"]
+Cell[87062, 2363, 175, 4, 27, "Input"],
+Cell[87240, 2369, 352, 7, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[88337, 2419, 333, 8, 27, "Input"],
-Cell[88673, 2429, 2225, 51, 144, "Output"]
+Cell[87629, 2381, 121, 2, 27, "Input"],
+Cell[87753, 2385, 326, 7, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[90935, 2485, 425, 13, 27, "Input"],
-Cell[91363, 2500, 359, 7, 27, "Output"]
+Cell[88116, 2397, 333, 8, 27, "Input"],
+Cell[88452, 2407, 2225, 51, 144, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[90714, 2463, 425, 13, 27, "Input"],
+Cell[91142, 2478, 359, 7, 27, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[91783, 2514, 89, 1, 67, "Section"],
+Cell[91562, 2492, 89, 1, 67, "Section"],
 Cell[CellGroupData[{
-Cell[91897, 2519, 456, 11, 88, "Input"],
-Cell[92356, 2532, 326, 9, 27, "Output"]
+Cell[91676, 2497, 456, 11, 88, "Input"],
+Cell[92135, 2510, 326, 9, 27, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[92719, 2546, 126, 2, 27, "Input"],
+Cell[92498, 2524, 126, 2, 27, "Input"],
 Cell[CellGroupData[{
-Cell[92870, 2552, 132, 2, 39, "Print",
+Cell[92649, 2530, 132, 2, 39, "Print",
  CellTags->"Info3546014270-1247274"],
-Cell[93005, 2556, 1736, 45, 74, "Print",
+Cell[92784, 2534, 1736, 45, 74, "Print",
  CellTags->"Info3546014270-1247274"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[94790, 2607, 275, 5, 27, "Input"],
-Cell[95068, 2614, 1112, 31, 121, "Output"]
+Cell[94569, 2585, 275, 5, 27, "Input"],
+Cell[94847, 2592, 1112, 31, 121, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
