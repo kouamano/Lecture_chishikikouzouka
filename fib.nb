@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      3835,        129]
-NotebookOptionsPosition[      3232,        103]
-NotebookOutlinePosition[      3575,        118]
-CellTagsIndexPosition[      3532,        115]
+NotebookDataLength[      4434,        150]
+NotebookOptionsPosition[      3682,        119]
+NotebookOutlinePosition[      4026,        134]
+CellTagsIndexPosition[      3983,        131]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -98,12 +98,28 @@ Cell[BoxData["0"], "Output",
 Cell[BoxData["1"], "Output",
  CellChangeTimes->{3.614381185172173*^9, 3.614381225122945*^9, 
   3.614381305446981*^9, 3.614381448779387*^9}]
-}, Closed]]
+}, Closed]],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  "\"\</home/kamano/gitsrc/Lecture_chishikikouzouka/fib.txt\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.62130389803837*^9, 3.621303916544139*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"fib", "[", "24", "]"}]], "Input",
+ CellChangeTimes->{{3.621303938847452*^9, 3.621303956381068*^9}}],
+
+Cell[BoxData["46368"], "Output",
+ CellChangeTimes->{{3.621303941661491*^9, 3.621303956955196*^9}}]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{740, 854},
-WindowMargins->{{Automatic, 34}, {0, Automatic}},
-FrontEndVersion->"9.0 for Linux x86 (64-bit) (2013\:5e742\:67081\:65e5)",
+WindowMargins->{{Automatic, 28}, {0, Automatic}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (2014\:5e749\:67089\:65e5)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -118,7 +134,7 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 133, 1, 93, "Title"],
+Cell[579, 22, 133, 1, 107, "Title"],
 Cell[715, 25, 615, 16, 55, "Input"],
 Cell[CellGroupData[{
 Cell[1355, 45, 567, 14, 99, "Input"],
@@ -129,7 +145,12 @@ Cell[CellGroupData[{
 Cell[2257, 74, 663, 17, 93, "Input"],
 Cell[2923, 93, 139, 2, 32, "Output"],
 Cell[3065, 97, 139, 2, 32, "Output"]
-}, Closed]]
+}, Closed]],
+Cell[3219, 102, 186, 4, 26, "Input"],
+Cell[CellGroupData[{
+Cell[3430, 110, 123, 2, 32, "Input"],
+Cell[3556, 114, 98, 1, 32, "Output"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
