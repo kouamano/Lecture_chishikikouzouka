@@ -13,7 +13,6 @@ def fib(n)
 end
 
 vin = ARGV[0].to_i
-print(vin)
 out = fib(vin)
 print(out)
 print("\n")
