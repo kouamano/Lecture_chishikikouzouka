@@ -16,5 +16,3 @@ vin = ARGV[0].to_i
 out = fib(vin)
 print(out)
 print("\n")
-
-#所要時間: 25分
