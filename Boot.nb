@@ -1,0 +1,81 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2005,         72]
+NotebookOptionsPosition[      1634,         54]
+NotebookOutlinePosition[      1968,         69]
+CellTagsIndexPosition[      1925,         66]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["boot", "Text",
+ CellChangeTimes->{{3.653106398982605*^9, 3.6531064082057056`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"nb", "=", 
+  RowBox[{
+  "NotebookOpen", "[", 
+   "\"\</home/kamano/gitsrc/Lecture_chishikikouzouka/chishikikouzouka.nb10.nb\
+\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.653106416045018*^9, 3.653106449415202*^9}, {
+  3.653106653731769*^9, 3.65310665498197*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{FrontEndObject[
+    LinkObject["f5bgk_shm", 3, 1]],36,
+   "FrontEndObject[LinkObject[\"f5bgk_shm\", 3, 1]]","36",
+   "\"chishikikouzouka.nb10.nb\"",
+   "\"/home/kamano/gitsrc/Lecture_chishikikouzouka/chishikikouzouka.nb10.nb\"\
+"},
+  "NotebookObject"]], "Output",
+ CellChangeTimes->{
+  3.653106452263543*^9, 3.653106656070118*^9, {3.65310671265406*^9, 
+   3.653106733302478*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SetOptions", "[", 
+  RowBox[{"nb", ",", 
+   RowBox[{"Magnification", "\[Rule]", "3"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531068503244247`*^9, 3.6531068601884623`*^9}, {
+  3.6531069058107*^9, 3.653106938608924*^9}}]
+},
+WindowSize->{808, 877},
+WindowMargins->{{92, Automatic}, {32, Automatic}},
+FrontEndVersion->"10.2 for Linux x86 (64-bit) (July 29, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 88, 1, 33, "Text"],
+Cell[CellGroupData[{
+Cell[671, 25, 288, 7, 77, "Input"],
+Cell[962, 34, 407, 10, 57, "Output"]
+}, Open  ]],
+Cell[1384, 47, 246, 5, 32, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
