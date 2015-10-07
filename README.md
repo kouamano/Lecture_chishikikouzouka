@@ -1,3 +1,2 @@
-current
-chishikikouzouka.nb9.nb
-n005
+current:
+chishikikouzouka.nb10.nb
